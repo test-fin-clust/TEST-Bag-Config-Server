@@ -16,7 +16,7 @@ pipeline {
         // Шаг 1: Получение кода из Git
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/test-fin-clust/TEST-Bag-Config-Server.git'
+                git branch: 'main', url: 'https://github.com/test-fin-clust/TEST-Bag-Config-Server.git'
             }
         }
 
